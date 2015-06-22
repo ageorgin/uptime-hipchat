@@ -1,7 +1,7 @@
 var CheckEvent = require('../../models/checkEvent');
 var HipchatRoom = require('./component/hipchat/room');
 
-exports.init = function() {
+exports.initWebApp = function() {
     CheckEvent.on('afterInsert', function(checkEvent) {
         if (!config.event[checkEvent.message]) {
             return;
