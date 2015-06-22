@@ -1,0 +1,29 @@
+{
+  "name": "uptime-hipchat",
+  "version": "1.0.0",
+  "description": "HipChat notification plugin for Uptime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ageorgin/uptime-hipchat.git"
+  },
+  "keywords": [
+    "uptime",
+    "hipchat"
+  ],
+  "author": {
+    "name": "Arnaud Georgin",
+    "email": "arnaud.georgin@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ageorgin/uptime-hipchat/issues"
+  },
+  "homepage": "https://github.com/ageorgin/uptime-hipchat",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
