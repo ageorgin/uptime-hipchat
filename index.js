@@ -8,6 +8,7 @@ exports.initWebApp = function() {
     registerNewEventsHipchat(room);
     registerNewPingsHipchat(room);
     console.log('Enabled Hipchat Notification');
+    room.sendNotification('[Uptime] Application is starting - url : ' + config.hipchat.url);
 };
 
 var registerNewEventsHipchat = function(room) {

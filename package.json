@@ -1,6 +1,6 @@
 {
   "name": "uptime-hipchat",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HipChat notification plugin for Uptime",
   "main": "index.js",
   "scripts": {
