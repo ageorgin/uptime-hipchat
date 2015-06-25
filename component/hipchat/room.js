@@ -6,9 +6,9 @@ function RoomHipchat(roomId, token) {
     this.roomId = roomId;
 }
 
-RoomHipchat.prototype.sendNotification = function(message) {
+RoomHipchat.prototype.sendNotification = function(message, color) {
     var payload = {};
-    payload.color = 'gray';
+    payload.color = color;
     payload.message  = message;
     payload.notify = false;
     payload.message_format = 'html';
